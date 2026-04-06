@@ -6,7 +6,7 @@ Thanks for your interest in contributing! Here's how to get started.
 
 ```bash
 # Clone the repo
-git clone https://github.com/sandeepme/blackbox.git
+git clone https://github.com/sandeepdatalume/blackbox.git
 cd blackbox
 
 # Install dependencies
@@ -49,7 +49,7 @@ src/
 
 ## Reporting Bugs
 
-Use the [bug report template](https://github.com/sandeepme/blackbox/issues/new?template=bug_report.md) and include your Node.js version, OS, and steps to reproduce.
+Use the [bug report template](https://github.com/sandeepdatalume/blackbox/issues/new?template=bug_report.md) and include your Node.js version, OS, and steps to reproduce.
 
 ## Code of Conduct
 

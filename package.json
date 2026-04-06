@@ -6,11 +6,11 @@
   "author": "Sandeep Mehta",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandeepme/blackbox"
+    "url": "https://github.com/sandeepdatalume/blackbox"
   },
-  "homepage": "https://github.com/sandeepme/blackbox#readme",
+  "homepage": "https://github.com/sandeepdatalume/blackbox#readme",
   "bugs": {
-    "url": "https://github.com/sandeepme/blackbox/issues"
+    "url": "https://github.com/sandeepdatalume/blackbox/issues"
   },
   "bin": {
     "blackbox": "dist/cli.js"

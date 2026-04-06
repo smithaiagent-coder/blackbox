@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/blackbox-mcp)](https://www.npmjs.com/package/blackbox-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/sandeepme/blackbox)](https://github.com/sandeepme/blackbox)
+[![GitHub stars](https://img.shields.io/github/stars/sandeepdatalume/blackbox)](https://github.com/sandeepdatalume/blackbox)
 
 > ⚠️ **Vibe-coded.** This project was built in one session with Claude Code as the co-pilot. It works, it's tested, but it's fresh. Expect rough edges. PRs welcome.
 
@@ -312,7 +312,7 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ## Author
 
-[Sandeep Mehta](https://github.com/sandeepme)
+[Sandeep Mehta](https://github.com/sandeepdatalume)
 
 ---
 
