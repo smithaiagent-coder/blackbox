@@ -331,6 +331,16 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ---
 
+## How this was built
+
+This entire project — concept, architecture, code, testing, terminal recordings, README, and open-source setup — was built from Telegram using [OpenClaw](https://github.com/openclaw/openclaw). No IDE was opened. No terminal was touched directly.
+
+Agent Smith (my AI operator) handled everything: scaffolding via Claude Code ACP sessions, QA across all CLI commands and MCP tools, asciinema recordings converted to GIF/MP4, and pushing to GitHub. All orchestrated from chat messages on a phone.
+
+If you're curious about building with AI agents in production, that's what I write about.
+
+---
+
 ## License
 
 MIT — see [LICENSE](LICENSE) for details.
