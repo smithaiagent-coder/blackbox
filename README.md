@@ -122,6 +122,68 @@ Add to `.cursor/mcp.json`:
 
 Then run `blackbox serve --sse --port 3777` in your knowledge base directory.
 
+### OpenCode
+
+Add to your OpenCode MCP config:
+
+```json
+{
+  "mcpServers": {
+    "blackbox": {
+      "command": "blackbox",
+      "args": ["serve"],
+      "cwd": "/path/to/my-research"
+    }
+  }
+}
+```
+
+### Codex
+
+Add to your `codex` MCP config or run:
+
+```bash
+codex mcp add blackbox -- blackbox serve
+```
+
+### npx (zero install — works with any MCP client)
+
+If you don't want to install globally, use `npx` in your MCP config:
+
+```json
+{
+  "mcpServers": {
+    "blackbox": {
+      "command": "npx",
+      "args": ["-y", "blackbox-mcp", "serve"],
+      "cwd": "/path/to/my-research"
+    }
+  }
+}
+```
+
+---
+
+## Add to your CLAUDE.md / AGENTS.md
+
+For Claude Code, Codex, or any agent that reads project instructions, add this to your `CLAUDE.md` or `AGENTS.md`:
+
+```markdown
+## Knowledge Base
+
+This project has a Blackbox knowledge base at `/path/to/my-research`.
+
+Before answering questions about the domain, use the `read_index` MCP tool to see what's available,
+then use `search` and `read_page` to find relevant information.
+
+When you learn something new (from a URL, conversation, or decision), use `fetch_source` to save it
+and then create/update wiki pages following the rules in `schema.md`.
+
+Always update `index.md` and `log.md` after writing wiki pages.
+```
+
+This tells your agent to use the knowledge base as its memory.
+
 ---
 
 ## CLI Reference
